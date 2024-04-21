@@ -1,4 +1,3 @@
-// App.tsx
 import { useState, useEffect } from 'react';
 import { LCDClient, Coins, Numeric, MnemonicKey, Db, queryStringPrepare, MatchPhraseQuery, prepareSQL } from '@glitterprotocol/glitter-sdk';
 import './App.css';

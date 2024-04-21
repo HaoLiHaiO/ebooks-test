@@ -16,7 +16,7 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
 ``` shell
-git clone https://github.com/j2qk3b/ebook-demo
+git clone https://github.com/HaoLiHaiO/ebooks-test.git
 ```
 
 2. Navigate to the project directory:
@@ -40,6 +40,18 @@ npm run dev
 ```
 
 This will start the development server, and the application should be accessible at `http://localhost:5173` by default.
+
+### Docker
+
+How to build:
+```shell
+docker build -t ebook-demo .
+```
+
+How to start:
+```shell
+docker run -p 5173:5173 ebook-demo
+```
 
 ## Usage
 
